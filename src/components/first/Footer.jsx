@@ -14,7 +14,7 @@ const Footer = () => {
     {
       id: 2,
       image: image2,
-      text: "Nyc get own cryptocurrancy after",
+      text: "Nyc get own crypto currancy",
     },
     {
       id: 3,
@@ -29,10 +29,10 @@ const Footer = () => {
   ];
   return (
     <div className="text-white w-[90%] mx-auto text-[18px] my-8 mb-20">
-      <p className="mb-3">Latest Ecosystem news</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <p className="mb-6">Latest Ecosystem news</p>
+      <div className="flex gap-2 justify-between">
         {data.map((item) => (
-          <div className="grow" key={item.id}>
+          <div className="" key={item.id}>
             <Card data={item} />
           </div>
         ))}
