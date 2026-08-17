@@ -2,15 +2,15 @@ import React from "react";
 
 const MainArea = () => {
   return (
-    <div className="my-25">
+    <div className="my-25 font-[Space_Grotesk]">
       <div className="flex items-end justify-center">
-        <div className="text-white text-6xl sm:text-7xl md:text-8xl font-[bodoni-heading]  text-center">
+        <div className="text-white text-6xl sm:text-7xl md:text-8xl  text-center font-medium">
           <h1>Unleash Bitcoin</h1>
           <h1>full potential</h1>
         </div>
       </div>
       <div className="mt-5 leading-6">
-        <p className="text-white font-[Martel] text-center">
+        <p className="text-white font-light text-center">
           <p>stacks enables DeFi, NFTs, apps and</p>
           <p>smart contracts for bitcoin</p>
         </p>

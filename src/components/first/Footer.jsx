@@ -9,26 +9,26 @@ const Footer = () => {
     {
       id: 1,
       image: image1,
-      text: "Alex rasises $8.6M to bring Defi to the..",
+      text: "Alex rasises $8.6M to bring Defi to the world of human nation",
     },
     {
       id: 2,
       image: image2,
-      text: "Nyc get own crypto currancy",
+      text: "Nyc get own crypto currancy is the key to success",
     },
     {
       id: 3,
       image: image3,
-      text: "Alex rasises $8.6M to bring Defi to the..",
+      text: "Alex rasises $8.6M to bring Defi to the crypto world",
     },
     {
       id: 4,
       image: image4,
-      text: "Alex rasises $8.6M to bring Defi to the..",
+      text: "Alex rasises $8.6M to bring Defi to the downfall ",
     },
   ];
   return (
-    <div className="text-white w-[90%] mx-auto text-[18px] my-8 mb-20">
+    <div className="text-white w-[90%] mx-auto text-[18px] my-8 mb-20 font-[Space_Grotesk]">
       <p className="mb-6">Latest Ecosystem news</p>
       <div className="flex gap-2 justify-between">
         {data.map((item) => (
