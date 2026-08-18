@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 const Hero = () => {
   return (
-    <div className='bg-black border-b-2 rounded-b-4xl h-fit w-full'> 
+    <div className='bg-black border-b-2 rounded-b-[48px] h-fit w-full'> 
       <Navbar />
       <MainArea />
       <Footer />
