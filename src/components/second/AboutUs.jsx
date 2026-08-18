@@ -3,16 +3,15 @@ import img1 from "./1.png";
 import img2 from "./2.png";
 const AboutUs = () => {
   return (
-    <div className="h-fit mt-[10%] mb-[7%] flex items-center justify-around font-[Space_Grotesk]">
-      <div className="sm:w-[35%] w-[80%] my-10 sm:my-1">
-        <h1 className="font-medium lg:text-7xl sm:py-[3%] sm:text-4xl md:text-[44px]  text-5xl line-clamp-3 lg:leading-20 lg:w-120  ">
+    <div className="h-fit my-15 mt-25 md:my-20 md:mt-30 lg:my-25 lg:mt-35 flex items-center justify-around font-[Space_Grotesk]">
+      <div className="sm:w-[50%] md:w-[50%] lg:w-[35%] w-[80%] my-10 sm:my-1 pl-4">
+        <h1 className="font-medium lg:text-7xl sm:py-[3%] sm:text-5xl md:text-6xl  text-5xl line-clamp-3 lg:leading-20 lg:w-120  ">
           <span className="block">Stacking, a</span> <span className="block">new way to</span> <span className="block">earn bitcoin</span>
         </h1>
-        <p className="pb-4 sm:max-md:leading-5 md:text-lg  leading-6 my-3 sm:text-sm">
-          Hold and temporarily lock STX, stacks native currency, and support the
-          networks security and consensus. As a rewards, you`ll earn BTC.
+        <p className="pb-4 sm:max-md:leading-5 md:text-lg  leading-6 my-3 text-sm">
+          Hold and temporarily lock STX, stacks native currency, and support the networks security and consensus. As a rewards, you`ll earn BTC.
         </p>
-        <div className="text-end sm:text-left  my-[7%]">
+        <div className="sm:text-left">
           <button className="bg-[#5846FB] text-white px-5 py-3 rounded-full">
             Start Stacking
           </button>
