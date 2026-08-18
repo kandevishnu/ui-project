@@ -10,10 +10,10 @@ const MainArea = () => {
         </div>
       </div>
       <div className="mt-5 leading-6">
-        <p className="text-white font-light text-center">
+        <div className="text-white font-light text-center">
           <p>stacks enables DeFi, NFTs, apps and</p>
           <p>smart contracts for bitcoin</p>
-        </p>
+        </div>
       </div>
       <div className="flex justify-center mt-5">
         <button className="text-white bg-[#5846FB] hover:bg-[#4a3ae0] py-3 px-10 rounded-full">

@@ -1,22 +1,21 @@
 import React from "react";
-import img1 from "./1.png";
 
-const Card = () => {
+const Card = ({data}) => {
   return (
-    <div className="bg-[#f0f0f0] flex flex-col h-full justify-between p-5 rounded-3xl w-[300px]">
+    <div className="bg-[#f0f0f0] flex flex-col lg:h-135 md:h-110 h-105 justify-between p-6 sm:p-5 lg:p-7 rounded-3xl w-80 sm:w-full">
       <div>
         <img
-          src={img1}
+          src={data.img}
           alt=""
-          className="h-12 w-12 bg-[#5846FB] p-3 rounded-full"
+          className="h-15 w-15 bg-[#5846FB] p-4 rounded-full"
         />
       </div>
-      <div className="h-[53%]">
-        <h1 className="text-5xl mb-3">Proof of transfer</h1>
-        <p className="leading-5 mb-4">
-          The consensus mechanism that connects stacks and bitcoin.
+      <div>
+        <h1 className="text-5xl sm:text-4xl md:text-5xl lg:text-6xl mb-3">{data.title}</h1>
+        <p className="leading-5 mb-4 sm:text-lg line-clamp-2">
+          {data.description}
         </p>
-        <p className="text-[11px] text-[#5846FB] font-semibold">Learn more</p>
+        <p className="text-sm text-[#5846FB] font-semibold">Learn more</p>
       </div>
     </div>
   );
