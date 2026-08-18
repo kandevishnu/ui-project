@@ -5,7 +5,7 @@ const AboutUs = () => {
   return (
     <div className="h-fit my-15 mt-25 md:my-20 md:mt-30 lg:my-25 lg:mt-35 flex items-center justify-around font-[Space_Grotesk]">
       <div className="sm:w-[50%] md:w-[50%] lg:w-[35%] w-[80%] my-10 sm:my-1 pl-4">
-        <h1 className="font-medium lg:text-7xl sm:py-[3%] sm:text-5xl md:text-6xl  text-5xl line-clamp-3 lg:leading-20 lg:w-120  ">
+        <h1 className="font-medium lg:text-[76px] sm:py-[3%] sm:text-5xl md:text-6xl  text-5xl line-clamp-3 lg:leading-20 lg:w-120  ">
           <span className="block">Stacking, a</span> <span className="block">new way to</span> <span className="block">earn bitcoin</span>
         </h1>
         <p className="pb-4 sm:max-md:leading-5 md:text-lg  leading-6 my-3 text-sm">
