@@ -27,7 +27,7 @@ const Features = () => {
   ];
 
   return (
-    <div className="font-[Space_Grotesk] my-20 flex flex-col items-center py-16">
+    <div className="font-[Space_Grotesk] sm:my-20 my-15 flex flex-col items-center py-16">
       <h1 className="my-8 text-4xl sm:text-5xl md:text-6xl lg:text-7xl text-center font-semibold">
         <div>Stacks unleashed</div>
         <div>Bitcoin</div>

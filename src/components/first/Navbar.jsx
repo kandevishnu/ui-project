@@ -5,13 +5,13 @@ const Navbar = () => {
     <div className="relative flex items-center pt-4 w-[90%] mx-auto mb-20">
       {/* Logo */}
       <div className="mx-auto md:mx-0">
-        <h2 className="text-[#5846FB] text-4xl md:text-2xl font-bold font-[Space_Grotesk]">
+        <h2 className="text-[#5846FB] text-4xl md:text-2xl font-bold font-[Space_Grotesk] absolute top-8">
           CoinFusion
         </h2>
       </div>
 
       {/* Navbar */}
-      <div className="hidden md:flex justify-center items-center w-10/12">
+      <div className="hidden md:flex justify-center items-center w-full">
         <nav className="bg-white m-2 px-14 py-3.5 rounded-full">
           <ul className="flex justify-center gap-6 px-3 font-[Space_Grotesk]">
             <li>Learn</li>
