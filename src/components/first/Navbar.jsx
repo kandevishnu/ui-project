@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <div className="relative flex items-center pt-4 w-[90%] mx-auto mb-20">
       {/* Logo */}
-      <div className="mx-auto md:mx-0">
-        <h2 className="text-[#5846FB] text-4xl md:text-2xl font-bold font-[Space_Grotesk] absolute top-8">
+      <div className="md:mx-0">
+        <h2 className="text-[#5846FB] text-4xl md:text-2xl font-bold font-[Space_Grotesk] absolute top-8 left-1/2 -translate-x-1/2 md:left-0 md:translate-x-0.5">
           CoinFusion
         </h2>
       </div>
