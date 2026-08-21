@@ -58,7 +58,7 @@ const Portfolio = () => {
             />
           </div>
         </div>
-        <div className="my-20">
+        <div className="mt-20">
           <div className="text-white text-[50px] font-medium pb-10 lg:text-7xl leading-20">
             <div>See what</div>
             <div>being built</div>
